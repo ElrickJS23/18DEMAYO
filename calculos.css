@@ -1,0 +1,34 @@
+.calculos {
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    margin: 5px;
+    border: 4px outset rgb(18, 181, 222);
+    padding: 15px 40px;
+    text-align: center;
+    font-weight: 700;
+  }
+  h1 {
+    text-align: center;
+    font-family: 'Segoe UI', monospace;
+    -webkit-text-stroke: 2px black;
+    color: rgb(255, 255, 255);
+  }
+  .centrar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.grid_title{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+body {
+  background-image: url('fondo.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
